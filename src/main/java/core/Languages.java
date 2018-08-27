@@ -6,7 +6,10 @@ package core;
 public enum Languages {
     RU("ru"),
     UK("uk"),
-    EN("en");
+    EN("en"),
+    INVALID("qw");
+
+
     public String languageCode;
 
     private Languages(String lang) {
